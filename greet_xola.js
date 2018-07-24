@@ -7,7 +7,6 @@ const styledMessage = chalk.bgGreen.black(greet('Xola'));
 console.log(styledMessage)
 
 var figlet = require('figlet');
-
 figlet.text('Boo!', {
     font: 'Ghost',
     horizontalLayout: 'default',
